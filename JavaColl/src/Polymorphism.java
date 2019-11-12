@@ -43,7 +43,7 @@ public class Polymorphism {
         System.out.println(a2.show(d));
 
         System.out.println(b.show(b));
-        System.out.println(b.show(c));
+        System.out.println(b.show(c));//优先级[B类>C类]，从父对象的类型开始找
         System.out.println(b.show(d));
     }
 }
