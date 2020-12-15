@@ -6,5 +6,4 @@ for /f "delims=" %%i in ('dir /s/b *.*') do (
     ren "%%~fi" "!foo!"
 )
 echo Well done！
-timeout /t 3 /nobreak
 pause
