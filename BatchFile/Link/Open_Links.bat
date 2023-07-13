@@ -1,7 +1,7 @@
 @echo off
 color 0a
 
-start explorer.exe open=http://https://twitter.com/
+start explorer.exe open=https://twitter.com/
 
 ping -n 5 127.0.0.1
 
